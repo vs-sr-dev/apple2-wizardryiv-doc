@@ -1,0 +1,70 @@
+virtual 226 +127  dJj0\lw;
+virtual 226 +333  JHBy||~v}]y
+virtual 229 +283  p@p|p88~;
+virtual 230 +406  @@@``px>~|+'/
+virtual 232 +404  TTDT|Xrbjj
+virtual 234 +224  %%$!%!$%3+=';?
+virtual 235 +240   := Op1 /         
+virtual 236 +240    sub     ; Subt
+virtual 236 +353   pp0pqc~|q
+virtual 236 +498  (sta     %1 / 
+virtual 237 +240    ; Push word on
+virtual 237 +496  sta     %2 / 
+virtual 240 +154  JBJHAG.;n:n;n:\w]w]7
+virtual 240 +431  0````````spx;0
+virtual 241 +167  S~|zrj@@Jqsqsqsq
+virtual 243 +232  ))((****S in this file / ;
+virtual 243 +498   ;       Read4
+virtual 247 +496      ; (5) /       
+virtual 248 +240        lda     #0D
+virtual 252 +238  |x     ; (6 + 15) / DU
+virtual 254 +240  ddSector       ;
+virtual 254 +296  ;oz?:o+f
+virtual 255 +126  Dq>>>>>6?5GWWWWWWW1TSL5UWM.3n{f3nsV~~|l|yx
+virtual 255 +173  ^;o?5>67?6
+virtual 255 +198  w]V:n{L;n7y2qrQgc'{oz
+virtual 255 +248   WriteB9
+virtual 255 +458  Xtw]Kw,+.*;j:>UUUU]
+virtual 255 +500   Read44Byte / 
+virtual 256 +251  (lda YAYA[C[C
+virtual 256 +272  TT||~~~~**nn??+#UUwv
+virtual 256 +349  |||XBZBZJT
+virtual 257 +221  fvw#)(*++++yyyyyyyyd        ; Is prUUww
+virtual 257 +280  **+++;k;UUUUUUUW********
+virtual 258 +240  ad44Byte   ; Rea|
+virtual 261 +187  *(! "TT|TTT
+virtual 261 +461  |y3mnow3=
+virtual 263 +176  `0@pxxwo|}}{
+virtual 265 +240  (sta     0407 / 
+virtual 266 +235  |E8g_ lda     disk+mo
+virtual 267 +234  |}}}}}(iny / 
+virtual 267 +246  (lda     @
+virtual 272 +  0  IOS /  /  / 009A| 
+virtual 272 + 31  5 ;------------------------------------------------------------------------------
+virtual 272 +113   / 009A| 0020 
+virtual 272 +126  0 FormatCount     .equ    20
+virtual 272 +163  5 ;****** WRITE ROUTINES ********************************************************
+virtual 272 +485  `x~px`N|wo
+virtual 273 +248   / 009A| 4
+virtual 273 +360  pxx|~~x<_ow{{}~
+virtual 275 +184  `pxx||~~O
+virtual 275 +240   / 00B3| 20 **** 
+virtual 275 +328  4t5LQQe/:|x
+virtual 275 +345  ~||yy{qC[
+virtual 275 +432  18z3Gg# / vrtzx|~
+virtual 277 +240   / 00D0| A9 FF 
+virtual 278 +221  UQU5555542*gggggggUode,x  ; Set out
+virtual 281 + 59  ...|*EE]]]]yU**::::s*UUwwwwsU**'n/.'*
+virtual 281 +112  |\}]}U% c:z:;*/!qwwww
+virtual 281 +245   / 0100| 4A 
+virtual 282 +243   / 0114| 88 
+KANA.KEYMAP 0x1A8..0x25F (DLE indents expanded):
+..`.ECIAL,
+                 STAIRS,
+                 PIT,
+                 CHUTE,
+                 TURNRANDOM,
+                 SDARKNESS,
+                 STELEPORT,
+                 DAMAGE,
+.............2...............................................................K..........._.......

@@ -1,0 +1,59 @@
+directory region 2048 bytes = 78 slots of 26; header + 21 live entries; slots 22..77
+slot 22  WERDNA.11.11.87  589..2048  datafile 87-11-11  namelen  0
+slot 23  SHOWDICT.CODE    418.. 421  codefile 87-08-13  namelen 13
+slot 24  SHOWDICT.TEXT    421.. 429  textfile 87-08-13  namelen 13
+slot 25  IPROC.TEXT       512.. 542  textfile 87-11-05  namelen 10
+slot 26  OLDEINTERP.CODE  542.. 568  codefile 87-11-05  namelen 15
+slot 27  NEWEBOOT.CODE    568.. 572  codefile 87-11-05  namelen 13
+slot 28  IMACRO.TEXT      572.. 588  textfile 87-11-05  namelen 11
+slot 29  NEWEINTERP.CODE  588.. 615  codefile 87-11-06  namelen 15
+slot 30  UNIT13.TEXT      615.. 665  textfile 87-11-06  namelen 11
+slot 31  NEWBOOT.CODE     687.. 691  codefile 87-11-06  namelen 12
+slot 32  NEWTEST          691.. 717  codefile 87-11-06  namelen  7
+slot 33  ILOCALS.TEXT     717.. 745  textfile 87-11-07  namelen 12
+slot 34  INTERP1.CODE     745.. 771  codefile 87-11-09  namelen 12
+slot 35  TEST1            771.. 797  codefile 87-11-09  namelen  5
+slot 36  WIZGRAPH.TEXT    797.. 807  textfile 87-11-09  namelen 13
+slot 37  MONSTGRAPH.TEXT  807.. 827  textfile 87-11-09  namelen 15
+slot 38  NEWBOOT.TEXT     827.. 857  textfile 87-11-09  namelen 12
+slot 39  INTERP.CODE      857.. 884  codefile 87-11-11  namelen 11
+slot 40  ILOCAT.TEXT      961.. 983  textfile 87-11-09  namelen 11
+slot 41  ISTANDARD.TEXT  1035..1065  textfile 87-11-09  namelen 14
+slot 42  IINIT.TEXT      1155..1183  textfile 87-11-10  namelen 10
+slot 43  IINIT.CODE      1183..1187  codefile 87-11-10  namelen 10
+slot 44  INTERP7.CODE    1213..1239  codefile 87-11-10  namelen 12
+slot 45  TEST7           1239..1265  codefile 87-11-10  namelen  5
+slot 46  NEWMESSG.TEXT   1415..1429  textfile 87-11-10  namelen 13
+slot 47  ITABLES.TEXT    1429..1467  textfile 87-11-11  namelen 12
+slot 48  VIRTDRIV.TEXT   1667..1691  textfile 87-11-11  namelen 13
+slot 49  OTHERDISK.TEXT  1691..1699  textfile 87-11-11  namelen 14
+slot 50  OLDTABLES.TEXT  1752..1790  textfile 87-11-11  namelen 14
+slot 51  MESSAGES.TEXT   1790..1794  textfile 87-11-11  namelen 13
+slot 52  MESSAGES.CODE   1794..1798  codefile 87-11-11  namelen 13
+slot 53  RWTS2.TEXT      1798..1822  textfile 87-11-11  namelen 10
+slot 54  INITGRAPH.TEXT  1897..1911  textfile 87-11-11  namelen 14
+slot 55  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen 12
+slot 56  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 57  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 58  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 59  OLDTABLES.TEXT  1949..1790  textfile 87-11-11  namelen 14
+slot 60  MESSAGES.TEXT   1790..1794  textfile 87-11-11  namelen 13
+slot 61  MESSAGES.CODE   1794..1798  codefile 87-11-11  namelen 13
+slot 62  RWTS2.TEXT      1798..1822  textfile 87-11-11  namelen 10
+slot 63  TEST14          1849..1875  codefile 87-11-11  namelen  6
+slot 64  INITGRAPH.TEXT  1897..1911  textfile 87-11-11  namelen 14
+slot 65  ITABLES.TEXT    1911..1949  textfile 87-11-11  namelen 12
+slot 66  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen 12
+slot 67  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 68  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 69  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 70  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 71  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 72  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 73  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 74  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 75  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 76  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+slot 77  IEQUATE.TEXT    1949..1971  textfile 87-11-11  namelen  0
+distinct names in stale slots: 35
+IEQUATE.TEXT, IINIT.CODE, IINIT.TEXT, ILOCALS.TEXT, ILOCAT.TEXT, IMACRO.TEXT, INITGRAPH.TEXT, INTERP.CODE, INTERP1.CODE, INTERP7.CODE, IPROC.TEXT, ISTANDARD.TEXT, ITABLES.TEXT, MESSAGES.CODE, MESSAGES.TEXT, MONSTGRAPH.TEXT, NEWBOOT.CODE, NEWBOOT.TEXT, NEWEBOOT.CODE, NEWEINTERP.CODE, NEWMESSG.TEXT, NEWTEST, OLDEINTERP.CODE, OLDTABLES.TEXT, OTHERDISK.TEXT, RWTS2.TEXT, SHOWDICT.CODE, SHOWDICT.TEXT, TEST1, TEST14, TEST7, UNIT13.TEXT, VIRTDRIV.TEXT, WERDNA.11.11.87, WIZGRAPH.TEXT

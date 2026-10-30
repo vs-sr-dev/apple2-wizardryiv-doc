@@ -1,0 +1,10 @@
+== a2pascal
+selftest: 6 checks, 0 failures
+== a2codefile
+selftest: 5 checks, 0 failures
+== wiz4virt
+selftest: 6 checks, 0 failures
+== wiz4krn
+selftest: 6 checks, 0 failures
+== wiz4maze
+selftest: 4 checks, 0 failures

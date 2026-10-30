@@ -1,0 +1,20 @@
+decoded: 200.CHARSET (rendered)                   8 blocks     4096 bytes    0.48 %
+decoded: SYSTEM.RELOC map                         4 blocks     2048 bytes    0.24 %
+decoded: TESTANIM codefile                        8 blocks     4096 bytes    0.48 %
+decoded: all-zero                               107 blocks    54784 bytes    6.37 %
+decoded: boot+identity                           12 blocks     6144 bytes    0.71 %
+decoded: codefile container                       1 blocks      512 bytes    0.06 %
+decoded: directory                                8 blocks     4096 bytes    0.48 %
+decoded: text + tree                            346 blocks   177152 bytes   20.60 %
+identified: ANIM.DATA                           204 blocks   104448 bytes   12.14 %
+identified: KANA.KEYMAP                           2 blocks     1024 bytes    0.12 %
+identified: MAZE.INFO                            28 blocks    14336 bytes    1.67 %
+identified: SCENARIO.DATA                       212 blocks   108544 bytes   12.62 %
+identified: SCENARIO.DATA header block            2 blocks     1024 bytes    0.12 %
+identified: WERDNA.DATA                          24 blocks    12288 bytes    1.43 %
+identified: interpreter 6502 code                78 blocks    39936 bytes    4.64 %
+identified: monster tiles                        99 blocks    50688 bytes    5.89 %
+identified: p-code (container closed)           537 blocks   274944 bytes   31.96 %
+decoded    494 blocks 252928 bytes 29.40 %
+identified 1186 blocks 607232 bytes 70.60 %
+total      1680 blocks, residue 0;  "all-zero" blocks that are not zero: 0

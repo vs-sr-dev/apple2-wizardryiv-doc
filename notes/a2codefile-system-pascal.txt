@@ -1,0 +1,131 @@
+slot  name      block   bytes  seg#  mtype ver  procs  inside  tail-ok
+  0   WIZARDRY     1    7270     1     2    2     88      88   yes
+  1   COMBAT      16     992     7     2    2     10      10   yes
+  2   CUTIL       18    6970     8     2    2     51      51   yes
+  3   CASTASPE    32    5116     9     2    2     36      36   yes
+  4   SWINGASW    42    3302    10     2    2     27      27   yes
+  5   CINIT       49    6878    11     2    2     42      42   yes
+  6   KANJIREA    63    4174    12     2    2     28      28   yes
+  7   UTILITIE    72    5528    13     2    2     32      32   yes
+  8   SHOPS       83    3042    14     2    2     19      19   yes
+  9   SPECIALS    89   11316    15     2    2     97      97   yes
+ 10   CAMP       112    9418    16     2    2     73      73   yes
+ 11   RUNNER     139    8680    17     2    2     61      61   yes
+ 12   DOCOPY     131    1952    18     2    2     13      13   yes
+ 13   DOCACHE    135    1838    19     2    2     15      15   yes
+segments 14   code bytes 76476   procedures 592   pointers inside their segment 592 of 592
+
+== WIZARDRY: 10 LSA string constants
+  +05301  **ERR**
+  +06433  PRESS RETURN
+  +06691  IS.APPLE
+  +06711  LINES.24
+  +06733  HAS.CACHE
+  +06755  HAS.STROPS
+  +06777  SYSTEM.RELOC
+  +06803  HAS.KRNSRCH
+  +06827  MAZE.INFO
+  +06861  SYSTEM.RELOC
+
+== COMBAT: 0 LSA string constants
+
+== CUTIL: 4 LSA string constants
+  +00023  ** 
+  +00035   **
+  +03943  ??????
+  +04171  123456
+
+== CASTASPE: 0 LSA string constants
+
+== SWINGASW: 0 LSA string constants
+
+== CINIT: 5 LSA string constants
+  +03827  **ERR**
+  +05799  UNSET
+  +06301  **ERR**
+  +06321  ** 
+  +06335   **
+
+== KANJIREA: 20 LSA string constants
+  +00889  HUFF
+  +00971  .CHARSET
+  +01001  200
+  +01053  .MONSTERS
+  +01085  200
+  +01167  200
+  +01177  400
+  +01195  200
+  +01205  400
+  +01311  ASCII.KRN
+  +01543  IS.TITLE
+  +01575  200.TITLE
+  +01593  400.TITLE
+  +02037  **ERR**
+  +02103  ASCII.KRN
+  +02121  KANA.KRN
+  +02139  KANJI.KRN
+  +02345  SCENARIO.DATA
+  +02387  SCENARIO.DATA
+  +02463  KANA.KEYMAP
+
+== UTILITIE: 0 LSA string constants
+
+== SHOPS: 5 LSA string constants
+  +00375  **ERR**
+  +00433  **ERR**
+  +01021  WERDNA.DATA
+  +01565  WERDNA
+  +02443  WERDNA.DATA
+
+== SPECIALS: 11 LSA string constants
+  +00163  **ERR**
+  +00183  SPCL IND ERR
+  +00871  **ERR**
+  +01167  **ERR**
+  +04269  **ERR**
+  +04883  **ERR**
+  +04947  **ERR**
+  +07713  **ERR**
+  +08251  **ERR**
+  +09883  **ERR**
+  +09947  **ERR**
+
+== CAMP: 7 LSA string constants
+  +02279  TREBOR
+  +02311  **ERR**
+  +02497  **ERR**
+  +02623  WERDNA.DATA
+  +07187  **ERR**
+  +07293                  
+  +08789  >!$#&*<?BCPCODG@
+
+== RUNNER: 3 LSA string constants
+  +05345  CBA123456789MLBC
+  +05579  **ERR**
+  +05595  IND ERR
+
+== DOCOPY: 1 LSA string constants
+  +01747  **ERR**
+
+== DOCACHE: 21 LSA string constants
+  +00075  PRESS RETURN
+  +00761  Testing Cache against Disk
+  +00863  Cache <> Disk at block
+  +01257  **ERR**
+  +01313  SYSTEM.PASCAL
+  +01487  CASTASPE
+  +01501  SWINGASW
+  +01513  CINIT   
+  +01527  CUTIL   
+  +01539  COMBAT  
+  +01553  RUNNER  
+  +01565  CAMP    
+  +01585  ASCII.KRN
+  +01601  KANA.KRN
+  +01617  KANJI.KRN
+  +01647  UTILITIE
+  +01659  SPECIALS
+  +01679  SHOPS   
+  +01691  KANJIREA
+  +01711  200.MONSTERS
+  +01731  400.MONSTERS

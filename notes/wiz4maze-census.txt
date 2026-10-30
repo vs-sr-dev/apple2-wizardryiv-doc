@@ -1,0 +1,17 @@
+block   E/W     N/S    walls  level?
+   99   0.997   0.997    557   LEVEL
+  101   1.000   0.989    669   LEVEL
+  103   1.000   1.000    586   LEVEL
+  105   0.995   0.992    745   LEVEL
+  107   0.721   0.666    575   one-sided walls? (agreement below 0.95 on a dense map)
+  109   0.997   0.995    331   LEVEL
+  111   0.958   0.926    872   one-sided walls? (agreement below 0.95 on a dense map)
+  113   0.995   0.997    548   LEVEL
+  115   1.000   1.000     86   LEVEL
+  117   1.000   0.997   1112   LEVEL
+  119   0.995   0.992    498   LEVEL
+  121   0.976   0.966    689   LEVEL
+  123   0.997   1.000    197   LEVEL
+  125   0.995   0.995     73   LEVEL
+  127   0.721   0.668    566   one-sided walls? (agreement below 0.95 on a dense map)
+level records: 12

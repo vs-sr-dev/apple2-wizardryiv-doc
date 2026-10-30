@@ -1,0 +1,8 @@
+slot  name      block   bytes  seg#  mtype ver  procs  inside  tail-ok
+  0   TESTANIM     1    1188     1     2    6     14      14   yes
+segments 1   code bytes 1188   procedures 14   pointers inside their segment 14 of 14
+
+== TESTANIM: 3 LSA string constants
+  +00721  ANIM.DATA
+  +00741  HAS.CACHE
+  +00763  DISK.280

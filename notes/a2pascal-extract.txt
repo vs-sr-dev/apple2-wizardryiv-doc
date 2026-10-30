@@ -1,0 +1,40 @@
+SYSTEM.RELOC       2048
+SYSTEM.INTERP     13312
+200.CHARSET        4096
+WERDNA.DATA       12288
+KANA.KEYMAP        1024
+SYSTEM.PASCAL     79872
+  (200.MONSTERS truncated by the medium: 54 of 60 blocks present)
+200.MONSTERS      27648
+  (MAZE.INFO truncated by the medium: 0 of 7 blocks present)
+MAZE.INFO             0
+  (ASCII.KRN truncated by the medium: 0 of 118 blocks present)
+ASCII.KRN             0
+  (ASCII.HUFF truncated by the medium: 0 of 2 blocks present)
+ASCII.HUFF            0
+  (SCENARIO.DATA truncated by the medium: 0 of 144 blocks present)
+SCENARIO.DATA         0
+  (ASCII.SECS truncated by the medium: 0 of 4 blocks present)
+ASCII.SECS            0
+  (ASCII30.TEXT truncated by the medium: 0 of 10 blocks present)
+ASCII30.TEXT          0
+  (PLAYER.INFO truncated by the medium: 0 of 5 blocks present)
+PLAYER.INFO           0
+  (IS.APPLE truncated by the medium: 0 of 1 blocks present)
+IS.APPLE              0
+  (LINES.24 truncated by the medium: 0 of 1 blocks present)
+LINES.24              0
+  (HAS.CACHE truncated by the medium: 0 of 1 blocks present)
+HAS.CACHE             0
+  (HAS.STROPS truncated by the medium: 0 of 1 blocks present)
+HAS.STROPS            0
+  (HAS.KRNSRCH truncated by the medium: 0 of 1 blocks present)
+HAS.KRNSRCH           0
+  (WERSCRIPT.TEXT truncated by the medium: 0 of 8 blocks present)
+WERSCRIPT.TEXT        0
+  (WERDNA.11.11.87 truncated by the medium: 0 of 1459 blocks present)
+WERDNA.11.11.87       0
+ANIM.DATA        104448
+SYSTEM.PASCAL      2048
+SYSTEM.INTERP     13312
+BLAH              20480

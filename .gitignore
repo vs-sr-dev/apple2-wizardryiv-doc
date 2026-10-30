@@ -1,0 +1,18 @@
+# The object itself: the six disk images, ignored as a directory by its name.
+wizardry-iv-the-return-of-werdna/
+
+# The owner's ZIP the images came from.
+Wizardry-The-Return-of-Werdna---The-Fourth-Scenario_Apple-II_EN.zip
+
+# Everything derived: block-ordered images, extracted files, the rebuilt
+# virtual volume, renders, the decoded text, the Computist comparison.
+_work/
+
+# Pre-briefing and session prompt, if any.
+_pre/
+prompt.txt
+.claude/
+
+# Python
+__pycache__/
+*.pyc

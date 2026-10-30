@@ -1,0 +1,59 @@
+image             : virtual.vol
+bytes             : 284672
+blocks PRESENT    : 556
+volume name       : WIZBOOT   (7 characters)
+directory region  : blocks 0..5  (6 blocks: 2 boot + 4 directory)
+blocks DECLARED   : 2048   = 1048576 bytes
+files declared    : 21
+dlastboot         : 0xAEBB -> 11/11/87
+dloadtime         : 0x0000
+reserved 22..25   : 00 00 00 00
+
+THE TWO DENOMINATORS THIS HEADER CREATES
+  declared        : 2048 blocks = 1048576 bytes
+  present         : 556 blocks = 284672 bytes
+  absent          : 1492 blocks = 763904 bytes
+
+  #  name             kind        first  next  blocks     bytes  lastb   date      chain  ON MEDIUM
+  -------------------------------------------------------------------------------------------------
+   1  SYSTEM.RELOC     datafile        6    10       4      2048    512  10/16/87  ok     all 4
+   2  SYSTEM.INTERP    codefile       10    36      26     13312    512  11/12/87  ok     all 26
+   3  200.CHARSET      datafile       36    44       8      4096    512  09/26/87  ok     all 8
+   4  WERDNA.DATA      datafile       44    68      24     12288    512  09/17/87  ok     all 24
+   5  KANA.KEYMAP      datafile       68    70       2      1024    512  05/15/87  ok     all 2
+   6  SYSTEM.PASCAL    codefile       70   226     156     79872    512  11/11/87  ok     all 156
+   7  200.MONSTERS     datafile      226   286      60     30720    512  11/07/84  ok     all 60
+   8  MAZE.INFO        infofile      286   293       7      3584    512  11/07/84  ok     all 7
+   9  ASCII.KRN        datafile      293   411     118     60416    512  11/11/87  ok     all 118
+  10  ASCII.HUFF       datafile      411   413       2      1024    512  11/11/87  ok     all 2
+  11  SCENARIO.DATA    datafile      413   557     144     73728    512  11/11/87  ok     143 of 144  MISSING 1
+  12  ASCII.SECS       datafile      557   561       4      2048    512  11/11/87  ok     NONE of 4
+  13  ASCII30.TEXT     textfile      561   571      10      5120    512  10/23/87  ok     NONE of 10
+  14  PLAYER.INFO      datafile      571   576       5      2560    512  11/11/87  ok     NONE of 5
+  15  IS.APPLE         datafile      576   577       1       512    512  09/09/87  ok     NONE of 1
+  16  LINES.24         datafile      577   578       1       512    512  09/09/87  ok     NONE of 1
+  17  HAS.CACHE        datafile      578   579       1       512    512  09/09/87  ok     NONE of 1
+  18  HAS.STROPS       datafile      579   580       1       512    512  09/09/87  ok     NONE of 1
+  19  HAS.KRNSRCH      datafile      580   581       1       512    512  10/05/87  ok     NONE of 1
+  20  WERSCRIPT.TEXT   textfile      581   589       8      4096    512  10/15/87  ok     NONE of 8
+  21  WERDNA.11.11.87  datafile      589  2048    1459    747008    512  11/11/87  ok     NONE of 1459
+
+EXTENT AUDIT -- the directory's arithmetic against the medium's
+  first free block after the last entry : 2048
+  volume header says the volume ends at : 2048
+  agreement                             : YES
+  blocks allocated to files             : 2042
+  + directory region                    : 6
+  = accounted for, of the DECLARED       2048 of 2048, residue 0
+  entries that do NOT fit on this image : 11 of 21
+      SCENARIO.DATA   wants blocks 413..556; the image ends at 555
+      ASCII.SECS      wants blocks 557..560; the image ends at 555
+      ASCII30.TEXT    wants blocks 561..570; the image ends at 555
+      PLAYER.INFO     wants blocks 571..575; the image ends at 555
+      IS.APPLE        wants blocks 576..576; the image ends at 555
+      LINES.24        wants blocks 577..577; the image ends at 555
+      HAS.CACHE       wants blocks 578..578; the image ends at 555
+      HAS.STROPS      wants blocks 579..579; the image ends at 555
+      HAS.KRNSRCH     wants blocks 580..580; the image ends at 555
+      WERSCRIPT.TEXT  wants blocks 581..588; the image ends at 555
+      WERDNA.11.11.87 wants blocks 589..2047; the image ends at 555

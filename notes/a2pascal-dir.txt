@@ -1,0 +1,134 @@
+image             : Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 1 of 6)[PASCAL].dsk
+volume name       : WIZBOOT  (7 characters)
+blocks declared   : 2048   <- the medium holds 280; declared/medium = 7.3143
+files declared    : 21
+dlastboot         : 0xAEBB -> 87-11-11
+
+  #  name             kind      first  next blocks  lastbyte  bytes   date      gap
+  1  SYSTEM.RELOC     datafile      6    10      4       512   2048   87-10-16  ok
+  2  SYSTEM.INTERP    codefile     10    36     26       512  13312   87-11-12  ok
+  3  200.CHARSET      datafile     36    44      8       512   4096   87-09-26  ok
+  4  WERDNA.DATA      datafile     44    68     24       512  12288   87-09-17  ok
+  5  KANA.KEYMAP      datafile     68    70      2       512   1024   87-05-15  ok
+  6  SYSTEM.PASCAL    codefile     70   226    156       512  79872   87-11-11  ok
+  7  200.MONSTERS     datafile    226   286     60       512  30720   84-11-07  ok  BEYOND MEDIUM by 6 blocks
+  8  MAZE.INFO        infofile    286   293      7       512   3584   84-11-07  ok  BEYOND MEDIUM by 7 blocks
+  9  ASCII.KRN        datafile    293   411    118       512  60416   87-11-11  ok  BEYOND MEDIUM by 118 blocks
+ 10  ASCII.HUFF       datafile    411   413      2       512   1024   87-11-11  ok  BEYOND MEDIUM by 2 blocks
+ 11  SCENARIO.DATA    datafile    413   557    144       512  73728   87-11-11  ok  BEYOND MEDIUM by 144 blocks
+ 12  ASCII.SECS       datafile    557   561      4       512   2048   87-11-11  ok  BEYOND MEDIUM by 4 blocks
+ 13  ASCII30.TEXT     textfile    561   571     10       512   5120   87-10-23  ok  BEYOND MEDIUM by 10 blocks
+ 14  PLAYER.INFO      datafile    571   576      5       512   2560   87-11-11  ok  BEYOND MEDIUM by 5 blocks
+ 15  IS.APPLE         datafile    576   577      1       512    512   87-09-09  ok  BEYOND MEDIUM by 1 blocks
+ 16  LINES.24         datafile    577   578      1       512    512   87-09-09  ok  BEYOND MEDIUM by 1 blocks
+ 17  HAS.CACHE        datafile    578   579      1       512    512   87-09-09  ok  BEYOND MEDIUM by 1 blocks
+ 18  HAS.STROPS       datafile    579   580      1       512    512   87-09-09  ok  BEYOND MEDIUM by 1 blocks
+ 19  HAS.KRNSRCH      datafile    580   581      1       512    512   87-10-05  ok  BEYOND MEDIUM by 1 blocks
+ 20  WERSCRIPT.TEXT   textfile    581   589      8       512   4096   87-10-15  ok  BEYOND MEDIUM by 8 blocks
+ 21  WERDNA.11.11.87  datafile    589  2048   1459       512 747008   87-11-11  ok  BEYOND MEDIUM by 1459 blocks
+
+blocks in files   : 2042
+directory region  : 6
+free (unclaimed)  : 0   tail after last file: 0  (against the medium: -1768)
+name-field tails not cleared:
+   SYSTEM.RELOC    00 40 b2
+   SYSTEM.INTERP   40 b2
+   200.CHARSET     00 00 40 b2
+   WERDNA.DATA     00 00 40 b2
+   KANA.KEYMAP     00 00 40 b2
+   SYSTEM.PASCAL   40 b2
+   200.MONSTERS    00 40 b2
+   MAZE.INFO       72 87 00 00 40 b2
+   ASCII.KRN       72 87 00 00 40 b2
+   ASCII.HUFF      87 00 00 40 b2
+   SCENARIO.DATA   40 b2
+   ASCII.SECS      87 00 00 40 b2
+   ASCII30.TEXT    00 40 b2
+   PLAYER.INFO     00 00 40 b2
+   IS.APPLE        00 72 87 00 00 40 b2
+   LINES.24        00 72 87 00 00 40 b2
+   HAS.CACHE       48 45 00 00 40 b2
+   HAS.STROPS      87 00 00 40 b2
+   HAS.KRNSRCH     00 00 40 b2
+   WERSCRIPT.TEXT  b2
+stale records past dnumfiles: 56
+   slot 22: 4d 02 00 08 05 00 00 57 45 52 44 4e 41 2e 31 31 2e 31 31 2e 38 37 00 02 bb ae
+   slot 23: SHOWDICT.CODE   418..421  date 87-08-13
+   slot 24: SHOWDICT.TEXT   421..429  date 87-08-13
+   slot 25: IPROC.TEXT      512..542  date 87-11-05
+   slot 26: OLDEINTERP.CODE 542..568  date 87-11-05
+   slot 27: NEWEBOOT.CODE   568..572  date 87-11-05
+   slot 28: IMACRO.TEXT     572..588  date 87-11-05
+   slot 29: NEWEINTERP.CODE 588..615  date 87-11-06
+   slot 30: UNIT13.TEXT     615..665  date 87-11-06
+   slot 31: NEWBOOT.CODE    687..691  date 87-11-06
+   slot 32: NEWTEST         691..717  date 87-11-06
+   slot 33: ILOCALS.TEXT    717..745  date 87-11-07
+   slot 34: INTERP1.CODE    745..771  date 87-11-09
+   slot 35: TEST1           771..797  date 87-11-09
+   slot 36: WIZGRAPH.TEXT   797..807  date 87-11-09
+   slot 37: MONSTGRAPH.TEXT 807..827  date 87-11-09
+   slot 38: NEWBOOT.TEXT    827..857  date 87-11-09
+   slot 39: INTERP.CODE     857..884  date 87-11-11
+   slot 40: ILOCAT.TEXT     961..983  date 87-11-09
+   slot 41: ISTANDARD.TEXT  1035..1065  date 87-11-09
+   slot 42: IINIT.TEXT      1155..1183  date 87-11-10
+   slot 43: IINIT.CODE      1183..1187  date 87-11-10
+   slot 44: INTERP7.CODE    1213..1239  date 87-11-10
+   slot 45: TEST7           1239..1265  date 87-11-10
+   slot 46: NEWMESSG.TEXT   1415..1429  date 87-11-10
+   slot 47: ITABLES.TEXT    1429..1467  date 87-11-11
+   slot 48: VIRTDRIV.TEXT   1667..1691  date 87-11-11
+   slot 49: OTHERDISK.TEXT  1691..1699  date 87-11-11
+   slot 50: OLDTABLES.TEXT  1752..1790  date 87-11-11
+   slot 51: MESSAGES.TEXT   1790..1794  date 87-11-11
+   slot 52: MESSAGES.CODE   1794..1798  date 87-11-11
+   slot 53: RWTS2.TEXT      1798..1822  date 87-11-11
+   slot 54: INITGRAPH.TEXT  1897..1911  date 87-11-11
+   slot 55: IEQUATE.TEXT    1949..1971  date 87-11-11
+   slot 56: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 57: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 58: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 59: OLDTABLES.TEXT  1949..1790  date 87-11-11
+   slot 60: MESSAGES.TEXT   1790..1794  date 87-11-11
+   slot 61: MESSAGES.CODE   1794..1798  date 87-11-11
+   slot 62: RWTS2.TEXT      1798..1822  date 87-11-11
+   slot 63: TEST14          1849..1875  date 87-11-11
+   slot 64: INITGRAPH.TEXT  1897..1911  date 87-11-11
+   slot 65: ITABLES.TEXT    1911..1949  date 87-11-11
+   slot 66: IEQUATE.TEXT    1949..1971  date 87-11-11
+   slot 67: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 68: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 69: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 70: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 71: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 72: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 73: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 74: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 75: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 76: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+   slot 77: 9d 07 b3 07 03 00 00 49 45 51 55 41 54 45 2e 54 45 58 54 00 ea a4 00 02 bb ae
+
+image             : Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 6 of 6)[PASCAL].dsk
+volume name       : BLANK  (5 characters)
+blocks declared   : 280
+files declared    : 4
+dlastboot         : 0xA87B -> 84-11-07
+
+  #  name             kind      first  next blocks  lastbyte  bytes   date      gap
+  1  ANIM.DATA        datafile      6   210    204       512 104448   84-11-07  ok
+  2  SYSTEM.PASCAL    codefile    210   214      4       512   2048   87-12-08  ok
+  3  SYSTEM.INTERP    codefile    214   240     26       512  13312   87-11-04  ok
+  4  BLAH             datafile    240   280     40       512  20480   87-11-04  ok
+
+blocks in files   : 274
+directory region  : 6
+free (unclaimed)  : 0   tail after last file: 0  (against the medium: 0)
+name-field tails not cleared:
+   ANIM.DATA       72 87 00 00 40 b2
+   SYSTEM.PASCAL   40 b2
+   SYSTEM.INTERP   40 b2
+   BLAH            b2 00 00 00 00 72 87 00 00 9c b2
+stale records past dnumfiles: 1
+   slot  5: f0 00 18 01 05 00 00 42 4c 41 48 b2 00 00 00 00 72 87 00 00 9c b2 00 02 4b ae
+

@@ -1,0 +1,46 @@
+== SCENARIO.DATA header: title len 20 b'THE RETURN OF WERDNA', stale 873e880e8888a9108802a662a93ca3eaff010000
+  +106  len 7  NO RACE   tail 0013
+  +116  len 5  HUMAN     tail 04004687
+  +126  len 3  ELF       tail aab17afe1fb1
+  +136  len 5  DWARF     tail bc873e88
+  +146  len 5  GNOME     tail 02a662a9
+  +156  len 6  HOBBIT    tail 002e88
+  +166  len 7  FIGHTER   tail 0542
+  +176  len 4  MAGE      tail 2e4c494252
+  +186  len 6  PRIEST    tail b00d00
+  +196  len 5  THIEF     tail 0013b602
+  +206  len 6  BISHOP    tail 0203b2
+  +216  len 7  SAMURAI   tail 8493
+  +226  len 4  LORD      tail a60c20286e
+  +236  len 5  NINJA     tail 656429d7
+  +246  len 2  OK        tail 13b915b60203a6
+  +256  len 6  AFRAID    tail 000542
+  +266  len 6  ASLEEP    tail 494252
+  +276  len 6  P-LYZE    tail 8888a9
+  +286  len 6  STONED    tail a3f502
+  +296  len 4  DEAD      tail 88b488c688
+  +306  len 5  ASHES     tail fe87dca1
+  +316  len 4  LOST      tail 88ae8a0000
+  +326  len 7  UNALIGN   tail 02a6
+  +336  len 4  GOOD      tail 00ae8aae8a
+  +346  len 7  NEUTRAL   tail 62a9
+  +356  len 4  EVIL      tail 0001009e88
+== WERDNA.DATA
+  slot 0 name WERDNA fields [(0, 'ENTELECHY FUFF'), (0, 'FLACKECHY FUFF'), (0, 'LYCURGUSY FUFF')]
+  slot 1 name WERDNA fields [(0, 'ENTELECHY FUFF'), (0, 'FLACKECHY FUFF'), (0, 'LYCURGUSY FUFF')]
+  slot 2 name WERDNA fields [(0, 'GAS CLOUDSSTSS'), (0, 'LVL 1 PRIESTSF'), (0, 'ZOMBIESSY FUFF')]
+  slot 3 name WERDNA fields [(0, 'GAS CLOUDSSTSS'), (0, 'LVL 1 PRIESTSF'), (0, 'ZOMBIESSY FUFF')]
+  slot 4 name WERDNA fields [(0, 'BLACK DRAGON\x00\x00'), (0, 'ENTELECHY FUFF'), (0, 'LYCURGUSY FUFF')]
+  slot 5 name WERDNA fields [(0, 'BLACK DRAGON\x00\x00'), (0, 'ENTELECHY FUFF'), (0, 'LYCURGUSY FUFF')]
+  slot 6 name WERDNA fields [(0, 'BLACK DRAGON\x00\x00'), (0, 'ENTELECHY FUFF'), (0, 'LYCURGUSY FUFF')]
+  slot 7 name WERDNA fields [(0, 'BLACK DRAGON\x00\x00'), (0, 'ENTELECHY FUFF'), (0, 'LYCURGUSY FUFF')]
+== MAZE.INFO 62 records [(16, 8, 0), (18, 8, 15), (14, 7, 32), (19, 7, 61), (10, 3, 92), (21, 3, 179), (2, 0, 272), (25, 0, 421), (16, 8, 576), (18, 8, 591), (14, 7, 608), (19, 7, 637), (10, 3, 668), (21, 3, 755), (2, 0, 848), (25, 0, 1057), (16, 9, 1272), (14, 7, 1285), (10, 3, 1328), (16, 9, 1427), (14, 7, 1440), (10, 3, 1493), (14, 9, 1640), (19, 9, 1651), (8, 7, 1662), (21, 7, 1705), (0, 3, 1748), (25, 3, 1807), (14, 9, 1854), (19, 9, 1865), (8, 7, 1876), (21, 7, 1929), (0, 3, 1982), (25, 3, 2066), (17, 9, 2139), (18, 9, 2146), (15, 7, 2153), (19, 7, 2176), (11, 4, 2201), (21, 4, 2254), (3, 0, 2313), (25, 0, 2394), (17, 8, 2483), (15, 7, 2496), (11, 3, 2515), (8, 0, 2558), (13, 4, 2588), (13, 13, 2613), (8, 17, 2638), (0, 0, 2668), (0, 4, 2687), (0, 13, 2719), (0, 17, 2751), (27, 0, 2770), (22, 4, 2791), (22, 13, 2823), (27, 17, 2855), (16, 13, 2876), (14, 17, 2895), (17, 13, 2920), (17, 17, 2929), (0, 0, 2942)]
+  text 0xf8 b' the editor.'
+  text 0x148 b'* already exists. Delete before S(ave?  -->'
+  text 0x182 b'2    Y(es to delete old file before saving new one.'
+  text 0x1c4 b'1    N(o  to delete old file after saving new one.'
+  text 0xdbb b'ttern not in the file.'
+  text 0xdd9 b'No old pattern.'
+== 200.CHARSET blank glyphs 146: 0..127 17, 128..255 128, 256..511 1
+== 200.MONSTERS tiles 3840, blank 903, all-printable 257
+== ANIM.DATA index entries 54 [(1, 0), (2, 501), (4, 293), (5, 112), (5, 347), (6, 142), (7, 460), (10, 385), (16, 238), (22, 493), (31, 294), (41, 502), (52, 450), (65, 129), (78, 107), (79, 95), (83, 307), (87, 401), (92, 382), (97, 257), (97, 389), (98, 277), (99, 173), (100, 54), (100, 283), (100, 423), (102, 87), (106, 97), (111, 177), (119, 306), (135, 181), (136, 98), (136, 439), (137, 11), (137, 182), (137, 316), (137, 484), (138, 155), (138, 321), (139, 35), (141, 460), (146, 457), (149, 407), (153, 132), (156, 423), (159, 273), (164, 429), (170, 57), (178, 423), (181, 11), (187, 37), (191, 185), (198, 12), (203, 65535)]

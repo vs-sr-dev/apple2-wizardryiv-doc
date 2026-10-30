@@ -1,0 +1,7 @@
+distinct virtual blocks >= 2: 544   carriers histogram {1: 305, 2: 27, 3: 9, 4: 108, 5: 95}
+side  boot+id  mapped(excl.0-1)  free
+  A      2        224              54
+  B      2        276               2
+  C      2        276               2
+  D      2        263              15
+  E      2        254              24

@@ -1,0 +1,56 @@
+== side A SYSTEM.INTERP (87-11-12, shipped)
+  0x0720  PSpkhhpMPe
+  0x2f00  Diskette Is Write-Protected
+  0x2f1c  Please Insert SCENARIO Diskette %c
+  0x2f3f  Press ~ To Continue
+  0x2f53  A Serious Problem Has Occurred
+  0x2f72  Note: %h %h %h %h %h
+  0x2f87  Please Restart From Diskette "A"
+  0x2fa8  A Problem Has Occurred While Reading
+  0x2fcd  Diskette "%c"
+  0x2fdb  The Diskette In Drive %h
+  0x3012  SYSTEM.PASCAL
+  0x3020  WIZARDRY FOR THE APPLE II
+  0x303c  ERROR: SYSTEM.PASCAL NOT FOUND
+  0x305b  TYPE <RETURN> TO RESTART
+== side F SYSTEM.INTERP (87-11-04)
+  0x0706  PSpkhhpMPe
+  0x23c4   $(,048< $(,048<!%)-159=!%)-159="&*.26:>"&*.26:>#'+/37;?#'+/37;? $(,048< $(,048<
+  0x2f00  Execution Error %h
+  0x2f13  System I/O Error %h
+  0x2f27  Unimplemented P-code %h
+  0x2f3f  I/O Error %h
+  0x2f4c  Disk Is Write-Protected
+  0x2f64  Bad Address Field
+  0x2f76  S=%h P=%h I=%d PC=%x
+  0x2f8b  Unit %h Block %d
+  0x2f9c  Please Insert Diskette %c
+  0x2fb6  Press ~ To Continue
+  0x2fca  Diskette %c Block %d
+  0x2fdf  Bad Data Field
+  0x3012  SYSTEM.PASCAL
+  0x3020  WIZARDRY FOR THE APPLE II
+  0x303c  ERROR: SYSTEM.PASCAL NOT FOUND
+  0x305b  TYPE <RETURN> TO RESTART
+== side F BLAH bytes 2048..15359
+  0x0706  PSpkhhpMPe
+  0x2265   $(,048< $(,048<!%)-159=!%)-159="&*.26:>"&*.26:>#'+/37;?#'+/37;? $(,048< $(,048<
+  0x2508  S#%h %x P#%h %x I=%d IPC=%x MP=%x
+  0x252c  SP %b %x %x %x %x %x %x
+  0x2544  NI %h %h %h %c #%h S%h/P%h Pc%h NP=%x
+  0x2f00  Execution Error %h
+  0x2f13  System I/O Error %h
+  0x2f27  Unimplemented P-code %h
+  0x2f3f  I/O Error %h
+  0x2f4c  Disk Is Write-Protected
+  0x2f64  Bad Address Field
+  0x2f76  S=%h P=%h I=%d PC=%x
+  0x2f8b  Unit %h Block %d
+  0x2f9c  Please Insert Diskette %c
+  0x2fb6  Press ~ To Continue
+  0x2fca  Diskette %c Block %d
+  0x2fdf  Bad Data Field
+  0x3012  SYSTEM.PASCAL
+  0x3020  WIZARDRY FOR THE APPLE II
+  0x303c  ERROR: SYSTEM.PASCAL NOT FOUND
+  0x305b  TYPE <RETURN> TO RESTART

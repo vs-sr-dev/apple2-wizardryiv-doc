@@ -1,0 +1,22 @@
+  SYSTEM.INTERP     13312 bytes
+  200.CHARSET        4096 bytes
+  WERDNA.DATA       12288 bytes
+  KANA.KEYMAP        1024 bytes
+  SYSTEM.PASCAL     79872 bytes
+  200.MONSTERS    10 unmapped block(s) zero-filled: virtual 245,250,251,270,271,279,280,283,284,285
+  200.MONSTERS      30720 bytes
+  MAZE.INFO          3584 bytes
+  ASCII.KRN         60416 bytes
+  ASCII.HUFF         1024 bytes
+  SCENARIO.DATA   1 unmapped block(s) zero-filled: virtual 556
+  SCENARIO.DATA     73728 bytes
+  ASCII.SECS      not on any side -- skipped
+  ASCII30.TEXT    not on any side -- skipped
+  PLAYER.INFO     not on any side -- skipped
+  IS.APPLE        not on any side -- skipped
+  LINES.24        not on any side -- skipped
+  HAS.CACHE       not on any side -- skipped
+  HAS.STROPS      not on any side -- skipped
+  HAS.KRNSRCH     not on any side -- skipped
+  WERSCRIPT.TEXT  not on any side -- skipped
+  WERDNA.11.11.87 not on any side -- skipped

@@ -1,0 +1,31 @@
+ASCII.KRN messages 27984+28015: count word 60, pairs 60, codes ascending: True
+Computist codes 60, in the game table 60, game codes not in Computist 0
+each column is 20 consecutive? col1 sorted True
+Code #1: Computist value = (1011 * game value + 8186) mod 9000 on 4 of 20
+Code #2: Computist value = (7 * game value + 5365) mod 9000 on 10 of 20
+Code #3: Computist value = (1 * game value + 8449) mod 9000 on 20 of 20
+
+the booklet's 12 examples (owner's scan, "2992" read as 2922): column roles True
+  2338 2897 3414  booklet 2911   Computist sum 2982   game values 199 1080 1233
+  2338 2897 3547  booklet 2745   Computist sum 3365   game values 199 1080 1616
+  2338 2897 3996  booklet 8759   Computist sum 2599   game values 199 1080 850
+  2338 2922 1193  booklet 1187   Computist sum 9854   game values 199 2302 551
+  2338 2922 1282  booklet 3254   Computist sum 9364   game values 199 2302 61
+  2338 2922 1529  booklet 3298   Computist sum 1329   game values 199 2302 1026
+  2338 3243 1712  booklet 5562   Computist sum 5652   game values 199 1700 563
+  2338 3243 1757  booklet 4291   Computist sum 5196   game values 199 1700 107
+  2338 3243 2313  booklet 7390   Computist sum 5830   game values 199 1700 741
+  2338 3243 2377  booklet 6758   Computist sum 5536   game values 199 1700 447
+  2338 3243 2451  booklet 9897   Computist sum 5621   game values 199 1700 532
+  2338 3243 2770  booklet 5578   Computist sum 5506   game values 199 1700 417
+Computist method reproduces 0 of 12
+
+search: answer = (K + Z*game_value) mod M over the six examples sharing "2338 3243"
+  M  8192: best fit 2 of 6
+  M  8999: best fit 2 of 6
+  M  9000: best fit 2 of 6
+  M  9001: best fit 2 of 6
+  M  9999: best fit 2 of 6
+  M 10000: best fit 2 of 6
+  M 16384: best fit 2 of 6
+  M 65536: best fit 2 of 6

@@ -1,0 +1,4 @@
+REFUSED: dfirstblk is 34985, not 0  [Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 2 of 6).dsk]
+REFUSED: dfirstblk is 34985, not 0  [Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 3 of 6).dsk]
+REFUSED: dfirstblk is 34985, not 0  [Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 4 of 6).dsk]
+REFUSED: dfirstblk is 34985, not 0  [Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 5 of 6).dsk]

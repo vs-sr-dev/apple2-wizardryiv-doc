@@ -1,0 +1,147 @@
+side 1  identity "12/22/8700000040"  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 1 of 6)[PASCAL].dsk
+side 2  identity "12/22/8700000129"  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 2 of 6).dsk
+side 3  identity "12/22/8700000262"  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 3 of 6).dsk
+side 4  identity "12/22/8700000252"  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 4 of 6).dsk
+side 5  identity "12/22/8700000071"  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 5 of 6).dsk
+
+SYSTEM.RELOC word 0 : 2
+side records        : 5, list ends at word 329 (byte 658 of 2048)
+  side 1: 12 extents, 226 physical blocks used,  54 free
+      virtual    0..  85  -> physical   0.. 85  (86)
+      virtual  133.. 158  -> physical  86..111  (26)
+      virtual  182.. 208  -> physical 112..138  (27)
+      virtual  225.. 240  -> physical 139..154  (16)
+      virtual  246.. 249  -> physical 155..158  (4)
+      virtual  293.. 299  -> physical 159..165  (7)
+      virtual  301.. 339  -> physical 166..204  (39)
+      virtual  353.. 356  -> physical 205..208  (4)
+      virtual  371.. 371  -> physical 209..209  (1)
+      virtual  404.. 406  -> physical 210..212  (3)
+      virtual  408.. 414  -> physical 213..219  (7)
+      virtual  550.. 555  -> physical 220..225  (6)
+  side 2: 17 extents, 278 physical blocks used,   2 free
+      virtual    0..   1  -> physical   0..  1  (2)
+      virtual   86.. 132  -> physical   2.. 48  (47)
+      virtual  142.. 152  -> physical  49.. 59  (11)
+      virtual  159.. 200  -> physical  60..101  (42)
+      virtual  209.. 235  -> physical 102..128  (27)
+      virtual  237.. 244  -> physical 129..136  (8)
+      virtual  281.. 282  -> physical 137..138  (2)
+      virtual  286.. 313  -> physical 139..166  (28)
+      virtual  316.. 356  -> physical 167..207  (41)
+      virtual  368.. 371  -> physical 208..211  (4)
+      virtual  404.. 408  -> physical 212..216  (5)
+      virtual  415.. 416  -> physical 217..218  (2)
+      virtual  418.. 438  -> physical 219..239  (21)
+      virtual  461.. 467  -> physical 240..246  (7)
+      virtual  482.. 488  -> physical 247..253  (7)
+      virtual  524.. 533  -> physical 254..263  (10)
+      virtual  542.. 555  -> physical 264..277  (14)
+  side 3: 24 extents, 278 physical blocks used,   2 free
+      virtual    0..   1  -> physical   0..  1  (2)
+      virtual   86.. 132  -> physical   2.. 48  (47)
+      virtual  142.. 152  -> physical  49.. 59  (11)
+      virtual  159.. 200  -> physical  60..101  (42)
+      virtual  209.. 237  -> physical 102..130  (29)
+      virtual  242.. 243  -> physical 131..132  (2)
+      virtual  277.. 277  -> physical 133..133  (1)
+      virtual  286.. 299  -> physical 134..147  (14)
+      virtual  301.. 313  -> physical 148..160  (13)
+      virtual  316.. 339  -> physical 161..184  (24)
+      virtual  353.. 357  -> physical 185..189  (5)
+      virtual  361.. 361  -> physical 190..190  (1)
+      virtual  368.. 368  -> physical 191..191  (1)
+      virtual  370.. 371  -> physical 192..193  (2)
+      virtual  381.. 383  -> physical 194..196  (3)
+      virtual  386.. 387  -> physical 197..198  (2)
+      virtual  404.. 408  -> physical 199..203  (5)
+      virtual  416.. 418  -> physical 204..206  (3)
+      virtual  438.. 461  -> physical 207..230  (24)
+      virtual  467.. 482  -> physical 231..246  (16)
+      virtual  488.. 490  -> physical 247..249  (3)
+      virtual  510.. 511  -> physical 250..251  (2)
+      virtual  514.. 523  -> physical 252..261  (10)
+      virtual  540.. 555  -> physical 262..277  (16)
+  side 4: 25 extents, 265 physical blocks used,  15 free
+      virtual    0..   1  -> physical   0..  1  (2)
+      virtual   86.. 132  -> physical   2.. 48  (47)
+      virtual  142.. 152  -> physical  49.. 59  (11)
+      virtual  159.. 200  -> physical  60..101  (42)
+      virtual  209.. 234  -> physical 102..127  (26)
+      virtual  236.. 237  -> physical 128..129  (2)
+      virtual  239.. 239  -> physical 130..130  (1)
+      virtual  241.. 241  -> physical 131..131  (1)
+      virtual  254.. 265  -> physical 132..143  (12)
+      virtual  272.. 276  -> physical 144..148  (5)
+      virtual  278.. 278  -> physical 149..149  (1)
+      virtual  286.. 299  -> physical 150..163  (14)
+      virtual  301.. 313  -> physical 164..176  (13)
+      virtual  316.. 339  -> physical 177..200  (24)
+      virtual  353.. 371  -> physical 201..219  (19)
+      virtual  404.. 406  -> physical 220..222  (3)
+      virtual  408.. 408  -> physical 223..223  (1)
+      virtual  415.. 415  -> physical 224..224  (1)
+      virtual  418.. 419  -> physical 225..226  (2)
+      virtual  421.. 421  -> physical 227..227  (1)
+      virtual  461.. 461  -> physical 228..228  (1)
+      virtual  490.. 507  -> physical 229..246  (18)
+      virtual  512.. 513  -> physical 247..248  (2)
+      virtual  536.. 537  -> physical 249..250  (2)
+      virtual  542.. 555  -> physical 251..264  (14)
+  side 5: 28 extents, 256 physical blocks used,  24 free
+      virtual    0..   1  -> physical   0..  1  (2)
+      virtual   86.. 132  -> physical   2.. 48  (47)
+      virtual  142.. 152  -> physical  49.. 59  (11)
+      virtual  159.. 200  -> physical  60..101  (42)
+      virtual  209.. 227  -> physical 102..120  (19)
+      virtual  230.. 230  -> physical 121..121  (1)
+      virtual  233.. 233  -> physical 122..122  (1)
+      virtual  237.. 237  -> physical 123..123  (1)
+      virtual  240.. 240  -> physical 124..124  (1)
+      virtual  252.. 253  -> physical 125..126  (2)
+      virtual  266.. 269  -> physical 127..130  (4)
+      virtual  276.. 277  -> physical 131..132  (2)
+      virtual  286.. 299  -> physical 133..146  (14)
+      virtual  301.. 313  -> physical 147..159  (13)
+      virtual  315.. 339  -> physical 160..184  (25)
+      virtual  353.. 356  -> physical 185..188  (4)
+      virtual  362.. 362  -> physical 189..189  (1)
+      virtual  371.. 381  -> physical 190..200  (11)
+      virtual  383.. 406  -> physical 201..224  (24)
+      virtual  408.. 408  -> physical 225..225  (1)
+      virtual  415.. 415  -> physical 226..226  (1)
+      virtual  418.. 419  -> physical 227..228  (2)
+      virtual  421.. 421  -> physical 229..229  (1)
+      virtual  461.. 461  -> physical 230..230  (1)
+      virtual  505.. 511  -> physical 231..237  (7)
+      virtual  534.. 535  -> physical 238..239  (2)
+      virtual  538.. 539  -> physical 240..241  (2)
+      virtual  542.. 555  -> physical 242..255  (14)
+
+sides supplied      : [1, 2, 3, 4, 5]   missing: none
+virtual blocks held : 546 distinct (0..555)
+held by >1 side     : 239   byte-identical: 239   CONFLICTS: 0
+carriers histogram  : 1 side(s): 305, 2 side(s): 27, 3 side(s): 9, 4 side(s): 108, 5 side(s): 97
+
+directory files against the map:
+  SYSTEM.RELOC       6..   9     4 blocks  mapped    4  (all)  on sides A
+  SYSTEM.INTERP     10..  35    26 blocks  mapped   26  (all)  on sides A
+  200.CHARSET       36..  43     8 blocks  mapped    8  (all)  on sides A
+  WERDNA.DATA       44..  67    24 blocks  mapped   24  (all)  on sides A
+  KANA.KEYMAP       68..  69     2 blocks  mapped    2  (all)  on sides A
+  SYSTEM.PASCAL     70.. 225   156 blocks  mapped  156  (all)  on sides ABCDE
+  200.MONSTERS     226.. 285    60 blocks  mapped   50  (PART)  on sides ABCDE
+  MAZE.INFO        286.. 292     7 blocks  mapped    7  (all)  on sides BCDE
+  ASCII.KRN        293.. 410   118 blocks  mapped  118  (all)  on sides ABCDE
+  ASCII.HUFF       411.. 412     2 blocks  mapped    2  (all)  on sides A
+  SCENARIO.DATA    413.. 556   144 blocks  mapped  143  (PART)  on sides ABCDE
+  ASCII.SECS       557.. 560     4 blocks  mapped    0  (NONE)  on sides -
+  ASCII30.TEXT     561.. 570    10 blocks  mapped    0  (NONE)  on sides -
+  PLAYER.INFO      571.. 575     5 blocks  mapped    0  (NONE)  on sides -
+  IS.APPLE         576.. 576     1 blocks  mapped    0  (NONE)  on sides -
+  LINES.24         577.. 577     1 blocks  mapped    0  (NONE)  on sides -
+  HAS.CACHE        578.. 578     1 blocks  mapped    0  (NONE)  on sides -
+  HAS.STROPS       579.. 579     1 blocks  mapped    0  (NONE)  on sides -
+  HAS.KRNSRCH      580.. 580     1 blocks  mapped    0  (NONE)  on sides -
+  WERSCRIPT.TEXT   581.. 588     8 blocks  mapped    0  (NONE)  on sides -
+  WERDNA.11.11.87  589..2047  1459 blocks  mapped    0  (NONE)  on sides -

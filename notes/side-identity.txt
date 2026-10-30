@@ -1,0 +1,12 @@
+side A (1)  stamp '12/22/8700000040'  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 1 of 6)[PASCAL].dsk
+   boot strings: ['SYSTEM.INTERP', 'PLEASE RESTART FROM ANOTHER DISKETTE', 'CAN NOT RUN THE PROGRAM!', 'WIZARDRY REQUIRES 64 K-BYTES MEMORY']
+side B (2)  stamp '12/22/8700000129'  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 2 of 6).dsk
+   boot strings: ['MUST BOOT FROM SLOT 4, 5 OR 6', 'NO FILE SYSTEM.APPLE ', 'SYSTEM.APPLE', '` COPYRIGHT APPLE COMPUTER, INC., 1984, 1985 C.LEUNG']
+side C (3)  stamp '12/22/8700000262'  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 3 of 6).dsk
+   boot strings: ['MUST BOOT FROM SLOT 4, 5 OR 6', 'NO FILE SYSTEM.APPLE ', 'SYSTEM.APPLE', '` COPYRIGHT APPLE COMPUTER, INC., 1984, 1985 C.LEUNG']
+side D (4)  stamp '12/22/8700000252'  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 4 of 6).dsk
+   boot strings: ['MUST BOOT FROM SLOT 4, 5 OR 6', 'NO FILE SYSTEM.APPLE ', 'SYSTEM.APPLE', '` COPYRIGHT APPLE COMPUTER, INC., 1984, 1985 C.LEUNG']
+side E (5)  stamp '12/22/8700000071'  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 5 of 6).dsk
+   boot strings: ['MUST BOOT FROM SLOT 4, 5 OR 6', 'NO FILE SYSTEM.APPLE ', 'SYSTEM.APPLE', '` COPYRIGHT APPLE COMPUTER, INC., 1984, 1985 C.LEUNG']
+side F (6)  stamp '12/22/8700000051'  Wizardry IV - The Return of Werdna (1987)(Sir-Tech Software)(Disk 6 of 6)[PASCAL].dsk
+   boot strings: ['SYSTEM.INTERP', 'PLEASE RESTART FROM ANOTHER DISKETTE', 'CAN NOT RUN THE PROGRAM!', 'WIZARDRY REQUIRES 64 K-BYTES MEMORY']
