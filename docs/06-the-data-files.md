@@ -129,7 +129,8 @@ maze record, in its order — west, south, east, north — 120 bytes each: 20
 columns of 6 bytes, a column being 20 two-bit values packed least significant
 first and a zero sixth byte (0 open, 1 wall, 2 door, 3 hidden door). At +480
 follows a 1-bit-per-square grid (20 columns × 4 bytes) and at +560 a
-4-bit-per-square grid (20 columns × 10 bytes). x runs 0..19 west to east, y
+4-bit-per-square grid (20 columns × 10 bytes) — the special-event index, as the
+starting level shows below. x runs 0..19 west to east, y
 0..19 south to north.
 
 **The closure is the map agreeing with itself**: the east wall of (x, y)
@@ -184,6 +185,32 @@ Middle and Outer Way — at x 9–10, y 9–10: seven outer edges are walls and 
 eighth, north of (9, 10), is a hidden door. Of its four squares only (10, 10)
 has a non-zero value in the 4-bit grid (13). The other is at x 7–8, y 16–17 of
 block 105, with one hidden door to the west.
+
+**The owner's map confirms it, and decodes the 4-bit grid.** A community map
+of the game's *level 10* — officially the first, since Werdna climbs — supplied
+by the owner from outside these bytes, shows the same four rings and the same
+central cell, with a pentagram on (10, 10). Its fourteen icons were read off
+the picture by eye and compared with block 119's 4-bit grid
+(notes/wiz4maze-level119-specials.txt):
+
+```
+squares with a value and an icon: 14; value only: 0; icon only: 0
+
+value  1  stairs up     (12,19)          value  5, 12  keys       (11,19) (9,19)
+value  2, 3, 4, 7  fights — the four guardians (9,5) (3,9) (18,9) (9,12)
+value  6, 8, 9, 10, 11  messages     (9,11) (9,6) (4,9) (17,9) (10,19)
+value 13  pentagram     (10,10) and (2,6) — the same value on both
+```
+
+So the 4-bit grid is **the per-square index of the level's special events**,
+0 for none, one value per kind of event, shared where the event is the same —
+the two pentagrams are both 13. That is the *Wizardry* `SQREXTRA` idea in a
+four-bit field; the table the index points into is presumably the rest of the
+1,024-byte record, and was not decoded. It also fixes one ordering fact: the
+first level the player sees is record 119, not 99, so **record order is not
+level order**. The 1-bit grid at +480 is still unread: it fills the pyramid
+of 113 and the rings of 119, which suggests an area mask (darkness, or where
+random fights occur), and nothing more is claimed.
 
 From outside these bytes, the owner's account of how the game begins: Werdna
 wakes in a closed 2 × 2 room, and the only way out is to summon monsters at

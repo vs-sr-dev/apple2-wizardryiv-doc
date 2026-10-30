@@ -72,6 +72,7 @@ table transcribed from *Computist* no. 51 and is therefore not published.
 | Mordorcharge table | 60 pairs; 60 of 60 *Computist* codes; column 3 exact 20 of 20 | mordorcharge |
 | level records | 15 (12 consistent ≥ 0.966; 107, 111, 127 one-sided); 107 vs 127: 20 bytes differ | wiz4maze-census |
 | one-sided edges, level 107 | 233 of 760 | wiz4maze (chapter 06) |
+| level 119 special-event grid vs the owner's map of level 10 | 14 of 14 squares agree, 0 extra either way; both pentagrams = 13 | wiz4maze-level119-specials (script in `_work`) |
 | sealed 2 × 2 rooms | 2: block 119 x 9–10 y 9–10 (centre, hidden door north), block 105 x 7–8 y 16–17 | wiz4maze-start |
 | character set | 512 glyphs, 146 blank (17 / 128 / 1) | data-files |
 | monster tiles | 3,840, 903 blank, 257 all-printable | data-files |

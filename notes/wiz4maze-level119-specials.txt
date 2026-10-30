@@ -1,0 +1,16 @@
+block 119, 4-bit grid at +560: 14 non-zero squares
+  ( 9,19)  value 12   map: key
+  (10,19)  value 11   map: message
+  (11,19)  value 5    map: key
+  (12,19)  value 1    map: stairs up
+  ( 9,12)  value 7    map: fight
+  ( 9,11)  value 6    map: message
+  (10,10)  value 13   map: pentagram
+  ( 3, 9)  value 3    map: fight
+  ( 4, 9)  value 9    map: message
+  (17, 9)  value 10   map: message
+  (18, 9)  value 4    map: fight
+  ( 2, 6)  value 13   map: pentagram
+  ( 9, 6)  value 8    map: message
+  ( 9, 5)  value 2    map: fight
+squares with a value and an icon: 14; value only: 0; icon only: 0

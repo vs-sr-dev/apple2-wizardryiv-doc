@@ -53,6 +53,7 @@ were replaced by the classification in notes/coverage.txt, which says 29.40 %.
 | `ANIM.DATA`'s 53 frames, and what they animate | index read, frames not decoded; no block matches the game |
 | Why the Huffman tree gives NUL a 1-bit code | built on something other than this text, or more |
 | `ASCII.KRN` block 117 | not text under the shipped tree |
+| The level records' remaining bytes (after +760), and the 1-bit grid | the 4-bit grid is the special-event index (14 of 14 against the owner's map of level 10); the table it points into, and the 1-bit grid, are not read |
 | The four letters D-I-N-K | identified by the owner, located in the bytes (levels 101, 103, 105, 107); no letter recognition was automated |
 | p-code | no instruction disassembled; every reading of program behaviour above comes from constants, names and sizes |
 
