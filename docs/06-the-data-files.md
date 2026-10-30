@@ -227,20 +227,45 @@ has the event: *"Kablam! Land Mine!"*, *"You levitate over the Minefield!"*.
 
 And it fixes the order. Numbering the records from 0 at block 99, block 115 is
 record **8**, block 117 record **9** and block 119 record **10**: **the record number is the official
-level number**, and the game simply starts at the bottom. After level 10 the
-file holds four more records, and before level 1 one:
+level number**, and the game simply starts at the bottom.
 
-| record | block | what the walls and squares show |
-|---|---|---|
-| 0 | 99 | rooms around a courtyard, 31 doors — the natural candidate for the surface and the Castle the text describes (*The Edge of Town*, *Boltac's*, *Gilgamesh's Tavern*, *the Donjon*); a reading, not a match |
-| 11 | 121 | a symmetric, rounded maze with 65 doors |
-| 12 | 123 | a few small symmetric rooms on an empty field |
-| 13 | 125 | almost empty: 73 wall values |
-| 14 | 127 | **a near copy of record 4** (block 107): the same one-way-wall level, 20 bytes different |
+The community's maps, as the owner lists them, name fourteen levels: 10 down
+to 1, then **0**, **C1**, **C2** and **11**. The file has fifteen records, and
+they fall into place (notes/wiz4maze-records.txt):
 
-Records 11–14 are areas outside the numbered ladder — by the game's story,
-places like the Cosmic Cube, Hell or the Temple's inner ways — but which is
-which is not shown by these bytes and is not claimed here. The 1-bit grid at +480 is still unread: it fills the pyramid
+| record | block | community level | the bytes |
+|---|---|---|---|
+| 1 … 10 | 101 … 119 | 1 … 10 | 8, 9 and 10 matched square by square above |
+| 0 | 99 | **0** | rooms around a courtyard — the text's surface: *The Edge of Town*, *Boltac's*, *Gilgamesh's Tavern*, *the Donjon* |
+| 12, 13 | 123, 125 | **C1, C2** | sparse; they **share a structure with record 0** |
+| 11 | 121 | **11 — the Tree of Life** | the owner's identification; see below |
+| 14 | 127 | — | **record 4 again**: all 409 of its interior wall edges are record 4's (which has 418) |
+
+**0, C1 and C2 reuse one structure**, which the owner saw as two or three
+"A" shapes in the upper centre. Measured: 29 interior wall edges are common
+to records 0, 12 and 13, all inside x 3–10, y 9–17. In the other eleven
+records between 0 and 15 of those 29 reappear, except in the densest level,
+9, which has walls nearly everywhere and contains 24. A shared fragment,
+specific to the three — the castle level and the two that borrow from it.
+
+**Level 11 is the Tree of Life by the owner's eye, and the bytes are
+consistent with it.** The outline is bilaterally symmetric (195 of its 357
+wall edges have a mirror image across x = 10; the interior is not), and its
+special squares are of two kinds: two values used along the corridors (14 on
+15 squares, 15 on 10), and **twelve values used exactly once**, placed in
+three columns — a central one at x = 10 (values 2, 13, 11, 12, 10 rising from
+y = 8 to y = 18) and two at the sides (3, 6, 8 on the left at x = 3; 7, 9 on
+the right) — plus value 1 on a symmetric pair, (3, 7) and (17, 7). A central
+pillar and two side pillars is the drawing of the Kabbalistic Tree; the ten
+colour-coded riddle rooms of [05](05-the-text.md), from crown to feet, ending on
+the answer `TREE OF LIFE`, have to be somewhere, and this is the level shaped
+for them. Which value is which room needs the event table, which is not read.
+
+Record 14 is the only one with no community name, and it is not a new level:
+it is level 4 with nine interior wall edges fewer. Two states of one level, or
+a stale copy; the bytes cannot say which.
+
+The 1-bit grid at +480 is still unread: it fills the pyramid
 of 113 and the rings of 119, which suggests an area mask (darkness, or where
 random fights occur), and nothing more is claimed.
 
