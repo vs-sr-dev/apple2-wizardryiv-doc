@@ -237,7 +237,7 @@ they fall into place (notes/wiz4maze-records.txt):
 |---|---|---|---|
 | 1 … 10 | 101 … 119 | 1 … 10 | 8, 9 and 10 matched square by square above |
 | 0 | 99 | **0** | rooms around a courtyard — the text's surface: *The Edge of Town*, *Boltac's*, *Gilgamesh's Tavern*, *the Donjon* |
-| 12, 13 | 123, 125 | **C1, C2** | sparse; they **share a structure with record 0** |
+| 12, 13 | 123, 125 | **C1, C2** | sparse; they **share a structure with record 0** — with 0, the town outside the dungeon |
 | 11 | 121 | **11 — the Tree of Life** | the owner's identification; see below |
 | 14 | 127 | — | **record 4 again**: all 409 of its interior wall edges are record 4's (which has 418) |
 
@@ -246,7 +246,13 @@ they fall into place (notes/wiz4maze-records.txt):
 to records 0, 12 and 13, all inside x 3–10, y 9–17. In the other eleven
 records between 0 and 15 of those 29 reappear, except in the densest level,
 9, which has walls nearly everywhere and contains 24. A shared fragment,
-specific to the three — the castle level and the two that borrow from it.
+specific to the three. The owner identifies them: **0, C1 and C2 are the
+town outside, where Werdna arrives on leaving the dungeon** — which is what the
+text describes on the surface (*"Daylight! You are actually above the ground.
+Ahead of you is the Castle!!"*, then *The Edge of Town*, *The Training
+Grounds*, *Boltac's Trading Post*, *The Adventurer's Inn*, *Gilgamesh's
+Tavern*, *The Temple of Cant*, *the Donjon*): three maps of one place, built
+on one shared plan.
 
 **Level 11 is the Tree of Life by the owner's eye, and the bytes are
 consistent with it.** The outline is bilaterally symmetric (195 of its 357
