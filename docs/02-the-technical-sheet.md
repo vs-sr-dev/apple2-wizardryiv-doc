@@ -74,7 +74,8 @@ table transcribed from *Computist* no. 51 and is therefore not published.
 | one-sided edges, level 107 | 233 of 760 | wiz4maze (chapter 06) |
 | level 119 special-event grid vs the owner's map of level 10 | 14 of 14 squares agree, 0 extra either way; both pentagrams = 13 | wiz4maze-level119-specials (script in `_work`) |
 | level 117 special-event grid vs the owner's map of level 9 | 49 = 13 icon squares + 9 rooms × 4; pentagram = 4 (index is per level) | wiz4maze-level117-specials (script in `_work`) |
-| record number = official level | block 117 = record 9 = level 9, block 119 = record 10 = level 10; records 0 and 11–14 outside the ladder | wiz4maze-census |
+| level 115 special-event grid vs the owner's map of level 8 | 11 single events on 11 values; 267 mines on 6 values in concentric bands | wiz4maze-level115-specials (script in `_work`) |
+| record number = official level | blocks 115/117/119 = records 8/9/10 = levels 8/9/10; records 0 and 11–14 outside the ladder | wiz4maze-census |
 | sealed 2 × 2 rooms | 2: block 119 x 9–10 y 9–10 (centre, hidden door north), block 105 x 7–8 y 16–17 | wiz4maze-start |
 | character set | 512 glyphs, 146 blank (17 / 128 / 1) | data-files |
 | monster tiles | 3,840, 903 blank, 257 all-printable | data-files |

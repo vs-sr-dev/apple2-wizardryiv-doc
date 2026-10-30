@@ -211,11 +211,22 @@ four-bit field; the table the index points into is presumably the rest of the
 A second map from the owner, of *level 9*, matches block 117 the same way
 (notes/wiz4maze-level117-specials.txt): its 49 special squares are exactly the
 map's 13 icon squares plus the four squares of each of its nine 2 × 2 fight
-rooms (values 11, 12, 12, 13 in each). There the pentagram is **4**, not 13:
+rooms (values 11, 12, 12, 13 in eight of them; in the ninth, the corner room
+that holds a key, the 13 is a 3). There the pentagram is **4**, not 13:
 **the index is per level**, a slot number into that level's own table.
 
-And it fixes the order. Numbering the records from 0 at block 99, block 117 is
-record **9** and block 119 record **10**: **the record number is the official
+A third, of *level 8* — *"basically an empty square full of land mines"*, in
+the owner's words — matches block 115 (notes/wiz4maze-level115-specials.txt):
+its eleven single events (two stairs, a pentagram, three messages, four keys,
+one fight) carry eleven distinct values, and the remaining **267 squares are
+the mines**, on six values that lie in **concentric bands** — 12 next to the
+bottom-left corner where the stairs arrive, down to 7 along the top row. Six
+kinds of mine, graded by distance from the entrance; what differs between
+them is in the table the index points into, and is not read here. The text
+has the event: *"Kablam! Land Mine!"*, *"You levitate over the Minefield!"*.
+
+And it fixes the order. Numbering the records from 0 at block 99, block 115 is
+record **8**, block 117 record **9** and block 119 record **10**: **the record number is the official
 level number**, and the game simply starts at the bottom. After level 10 the
 file holds four more records, and before level 1 one:
 

@@ -1,0 +1,33 @@
+  ( 8,19)  value 5    map: message
+  ( 9,19)  value 1    map: stairs
+  (10,19)  value 5    map: message
+  (18,15)  value 4    map: pentagram
+  ( 0, 9)  value 15   map: key
+  ( 0, 5)  value 3    map: key
+  ( 0, 1)  value 2    map: stairs
+  ( 1, 1)  value 14   map: key
+  (14, 1)  value 6    map: key
+  ( 0, 0)  value 13   map: fight
+  ( 1, 0)  value 5    map: message
+remaining squares by value: {0: 122, 7: 30, 8: 33, 9: 34, 10: 52, 11: 41, 12: 77}
+mine squares (values 7..12): 267
+19 ........515.........
+18 .777777777777777777.
+17 .788888888888888887.
+16 .789999999999999987.
+15 .789aaaaaaa98.....4.
+14 8789a.....a98.88887.
+13 9889a.aaa.a98.99987.
+12 a999a.aba.a98....98.
+11 baaa..aba..a9999.a9.
+10 cbb..abbba.aaaaa.ba7
+ 9 fcc.aaaaba....aa..b7
+ 8 ccc......baaa.aab.c7
+ 7 ccccbbbb..bba.....c7
+ 6 cccccbbbb.bbaaaaabcc
+ 5 3cccccccc...bbbbbbcc
+ 4 ccccc...cbb......bcc
+ 3 cccc..c.ccccbbbb.bbc
+ 2 cccc.cc.....cccc....
+ 1 2ecc.cccccc.cc6cccc.
+ 0 d5...cccccc.........
