@@ -1,0 +1,24 @@
+block 117, 4-bit grid at +560
+  (13,14)  value 5    map: message
+  ( 9,10)  value 10   map: key
+  (10,10)  value 5    map: message
+  ( 9, 9)  value 5    map: message
+  (10, 9)  value 15   map: fight
+  ( 9, 8)  value 14   map: key
+  (10, 7)  value 5    map: message
+  ( 0, 6)  value 4    map: pentagram
+  (10, 6)  value 5    map: message
+  (11, 6)  value 5    map: message
+  ( 9, 5)  value 2    map: stairs up
+  ( 2, 1)  value 5    map: message
+  ( 2, 0)  value 1    map: stairs down
+  2x2 fight room at (0..1, 18..19): values [11, 12, 12, 13]
+  2x2 fight room at (18..19, 18..19): values [12, 11, 13, 12]
+  2x2 fight room at (3..4, 15..16): values [11, 12, 12, 13]
+  2x2 fight room at (15..16, 15..16): values [12, 11, 13, 12]
+  2x2 fight room at (6..7, 12..13): values [11, 12, 12, 13]
+  2x2 fight room at (12..13, 12..13): values [12, 11, 13, 12]
+  2x2 fight room at (12..13, 6..7): values [13, 12, 12, 11]
+  2x2 fight room at (15..16, 3..4): values [13, 12, 12, 11]
+  2x2 fight room at (18..19, 0..1): values [3, 12, 12, 11]
+non-zero squares 49 = 13 icon squares + 36 room squares

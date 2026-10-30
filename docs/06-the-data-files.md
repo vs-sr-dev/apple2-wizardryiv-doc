@@ -206,9 +206,30 @@ So the 4-bit grid is **the per-square index of the level's special events**,
 0 for none, one value per kind of event, shared where the event is the same —
 the two pentagrams are both 13. That is the *Wizardry* `SQREXTRA` idea in a
 four-bit field; the table the index points into is presumably the rest of the
-1,024-byte record, and was not decoded. It also fixes one ordering fact: the
-first level the player sees is record 119, not 99, so **record order is not
-level order**. The 1-bit grid at +480 is still unread: it fills the pyramid
+1,024-byte record, and was not decoded.
+
+A second map from the owner, of *level 9*, matches block 117 the same way
+(notes/wiz4maze-level117-specials.txt): its 49 special squares are exactly the
+map's 13 icon squares plus the four squares of each of its nine 2 × 2 fight
+rooms (values 11, 12, 12, 13 in each). There the pentagram is **4**, not 13:
+**the index is per level**, a slot number into that level's own table.
+
+And it fixes the order. Numbering the records from 0 at block 99, block 117 is
+record **9** and block 119 record **10**: **the record number is the official
+level number**, and the game simply starts at the bottom. After level 10 the
+file holds four more records, and before level 1 one:
+
+| record | block | what the walls and squares show |
+|---|---|---|
+| 0 | 99 | rooms around a courtyard, 31 doors — the natural candidate for the surface and the Castle the text describes (*The Edge of Town*, *Boltac's*, *Gilgamesh's Tavern*, *the Donjon*); a reading, not a match |
+| 11 | 121 | a symmetric, rounded maze with 65 doors |
+| 12 | 123 | a few small symmetric rooms on an empty field |
+| 13 | 125 | almost empty: 73 wall values |
+| 14 | 127 | **a near copy of record 4** (block 107): the same one-way-wall level, 20 bytes different |
+
+Records 11–14 are areas outside the numbered ladder — by the game's story,
+places like the Cosmic Cube, Hell or the Temple's inner ways — but which is
+which is not shown by these bytes and is not claimed here. The 1-bit grid at +480 is still unread: it fills the pyramid
 of 113 and the rings of 119, which suggests an area mask (darkness, or where
 random fights occur), and nothing more is claimed.
 
