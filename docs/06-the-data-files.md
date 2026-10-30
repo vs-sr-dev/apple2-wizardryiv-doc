@@ -252,7 +252,12 @@ text describes on the surface (*"Daylight! You are actually above the ground.
 Ahead of you is the Castle!!"*, then *The Edge of Town*, *The Training
 Grounds*, *Boltac's Trading Post*, *The Adventurer's Inn*, *Gilgamesh's
 Tavern*, *The Temple of Cant*, *the Donjon*): three maps of one place, built
-on one shared plan.
+on one shared plan. The LPArchive playthrough the owner followed calls C2
+**"Level 2F"** — a second floor; the text has a room *"jutting out of the
+Donjon's side"* with *"a great view of the town"*. Which of records 12 and 13
+is C1 and which C2 is not shown by the bytes: the order in the table above is
+the file's. Record 13, the smaller (38 interior wall edges, little more than
+the shared fragment), reads more naturally as an upper floor; that is a guess.
 
 **Level 11 is the Tree of Life by the owner's eye, and the bytes are
 consistent with it.** The outline is bilaterally symmetric (195 of its 357
