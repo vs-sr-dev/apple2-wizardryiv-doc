@@ -237,7 +237,7 @@ they fall into place (notes/wiz4maze-records.txt):
 |---|---|---|---|
 | 1 … 10 | 101 … 119 | 1 … 10 | 8, 9 and 10 matched square by square above |
 | 0 | 99 | **0** | rooms around a courtyard — the text's surface: *The Edge of Town*, *Boltac's*, *Gilgamesh's Tavern*, *the Donjon* |
-| 12, 13 | 123, 125 | **C1, C2** | sparse; they **share a structure with record 0** — with 0, the town outside the dungeon |
+| 12, 13 | 123, 125 | **C1**, **C2** ("Level 2F") | sparse; they **share a structure with record 0** — with 0, the town outside the dungeon; 13 = C2 matched on the owner's map |
 | 11 | 121 | **11 — the Tree of Life** | the owner's identification; see below |
 | 14 | 127 | — | **record 4 again**: all 409 of its interior wall edges are record 4's (which has 418) |
 
@@ -254,10 +254,16 @@ Grounds*, *Boltac's Trading Post*, *The Adventurer's Inn*, *Gilgamesh's
 Tavern*, *The Temple of Cant*, *the Donjon*): three maps of one place, built
 on one shared plan. The LPArchive playthrough the owner followed calls C2
 **"Level 2F"** — a second floor; the text has a room *"jutting out of the
-Donjon's side"* with *"a great view of the town"*. Which of records 12 and 13
-is C1 and which C2 is not shown by the bytes: the order in the table above is
-the file's. Record 13, the smaller (38 interior wall edges, little more than
-the shared fragment), reads more naturally as an upper floor; that is a guess.
+Donjon's side"* with *"a great view of the town"*. The owner's map of C2 settles
+which record it is: **record 13** (block 125), so C1 is record 12. Its four
+corner groups (a fight and a stair at (2, 16–17), (17, 16–17), (2, 2–3),
+(17, 2–3)) are the four corner clusters of the 4-bit grid; the small room at
+x 8–10, y 15–17 with a key, a stair and a fight carries values in the same
+squares and the hidden door the walls show there; the building at x 4–7,
+y 8–13 has the same walls, with a message at (4, 12), a fight at (5, 11), a
+message at (6, 9) and a key at (11, 9) on four distinct values; and the map's
+grey area is the patch of value 9 at x 7–12, y 8–14. The smaller record was the
+upper floor, as guessed.
 
 **Level 11 is the Tree of Life by the owner's eye, and the bytes are
 consistent with it.** The outline is bilaterally symmetric (195 of its 357
