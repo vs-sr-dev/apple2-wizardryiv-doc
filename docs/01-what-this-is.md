@@ -102,7 +102,9 @@ all five.
   by the Foretune co., ltd."*, a language menu `1) English 2) Kana 3) Kanji`,
   and a warning that kanji character names *"will look like tofu on machines
   without the kanji rom"* — in the American Apple II release
-  ([05](05-the-text.md)).
+  ([05](05-the-text.md)). This is the engine of a series whose *other main
+  market* was Japan — outside context, in [04](04-the-program-and-the-interpreters.md) —
+  and the American build still carries that market's machinery.
 * **Its date of manufacture**: every side's block 1 ends with
   `12/22/87` and an eight-digit number ([03](03-six-sides-and-the-virtual-drive.md)).
 

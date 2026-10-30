@@ -24,6 +24,7 @@ Usage:
     python tools/wiz4maze.py SCENARIO.DATA --ascii BLOCK      # one level as ASCII
     python tools/wiz4maze.py SCENARIO.DATA --ascii BLOCK --crop X0 X1 Y0 Y1
     python tools/wiz4maze.py SCENARIO.DATA --png OUT.png      # all levels, one sheet (needs PIL)
+    python tools/wiz4maze.py SCENARIO.DATA --sealed           # 2x2 rooms whose only exits are hidden doors
     python tools/wiz4maze.py --selftest
 """
 import sys
@@ -73,6 +74,31 @@ def ascii(L, x0=0, x1=20, y0=0, y1=20):
     rows.append('   ' + ''.join('+' + hz[S[x][y0]] for x in range(x0, x1)) + '+')
     rows.append('   ' + ''.join(' %-3d' % x for x in range(x0, x1)))
     return '\n'.join(rows)
+
+
+def sealed(s):
+    """2 x 2 rooms, interior open, outer edges all wall except hidden doors (and at least one)."""
+    names = {0: 'open', 1: 'wall', 2: 'door', 3: 'HIDDEN DOOR'}
+    found = 0
+    for blk, ew, ns, nz, isl in census(s):
+        if ew < 0.6:
+            continue
+        W, S, E, N = level(s, blk)
+        r = blk * 512 + 560
+        g4 = lambda x, y: (s[r + 10 * x + (4 * y) // 8] >> ((4 * y) % 8)) & 15  # noqa: E731
+        for x in range(19):
+            for y in range(19):
+                inner = [E[x][y], E[x][y + 1], N[x][y], N[x + 1][y]]
+                bnd = [('W', x, y, W[x][y]), ('W', x, y + 1, W[x][y + 1]), ('E', x + 1, y, E[x + 1][y]),
+                       ('E', x + 1, y + 1, E[x + 1][y + 1]), ('S', x, y, S[x][y]), ('S', x + 1, y, S[x + 1][y]),
+                       ('N', x, y + 1, N[x][y + 1]), ('N', x + 1, y + 1, N[x + 1][y + 1])]
+                v = [b[3] for b in bnd]
+                if all(i == 0 for i in inner) and 0 not in v and 2 not in v and 3 in v:
+                    found += 1
+                    print('block %d  room x %d..%d y %d..%d  non-wall edges %s  4-bit values %s' % (
+                        blk, x, x + 1, y, y + 1, [(b[0], b[1], b[2], names[b[3]]) for b in bnd if b[3] != 1],
+                        {(cx, cy): g4(cx, cy) for cx in (x, x + 1) for cy in (y, y + 1)}))
+    print('sealed 2x2 rooms: %d' % found)
 
 
 def png(s, out):
@@ -132,6 +158,8 @@ def main(a):
     if not a or a[0] == '--selftest':
         return selftest()
     s = open(a[0], 'rb').read()
+    if '--sealed' in a:
+        return sealed(s)
     if '--png' in a:
         return png(s, a[a.index('--png') + 1])
     if '--ascii' in a:

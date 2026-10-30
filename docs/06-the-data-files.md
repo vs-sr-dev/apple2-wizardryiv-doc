@@ -175,6 +175,26 @@ repository's. The letters sit on four *consecutive* level records, which is
 what one word laid across four floors of a dungeon should look like in the
 file.
 
+**The first puzzle: a cell with no door** (notes/wiz4maze-start.txt). A
+search of all fifteen records for a 2 × 2 room whose interior is open and
+whose eight outer edges are walls except for **hidden doors** (wall value 3)
+finds exactly two. One is at the **exact centre** of the level at block 119
+— the level of concentric rings, whose guardians the text calls the Inner,
+Middle and Outer Way — at x 9–10, y 9–10: seven outer edges are walls and the
+eighth, north of (9, 10), is a hidden door. Of its four squares only (10, 10)
+has a non-zero value in the 4-bit grid (13). The other is at x 7–8, y 16–17 of
+block 105, with one hidden door to the west.
+
+From outside these bytes, the owner's account of how the game begins: Werdna
+wakes in a closed 2 × 2 room, and the only way out is to summon monsters at
+the pentagram, include priests, enter a fight, and wait for one of them —
+whose actions the player does not control — to cast `MILWA`, the light spell
+that shows hidden doors (it is in the spell table, message 5,000); and the
+puzzle was obscure enough that, by testimony, Sir-Tech shipped its solution in
+a sealed envelope in the box. The bytes cannot show an envelope. They do show
+a sealed cell at the centre of a level whose only exit is a door that does not
+exist until it is lit.
+
 ## `KANA.KEYMAP` — 1,024 bytes
 
 On the IBM PC *Wizardry* this file held 44 ascending Shift-JIS codes. Here it

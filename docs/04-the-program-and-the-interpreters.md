@@ -95,6 +95,18 @@ for it ([05](05-the-text.md)). Of all these names, the Apple volume carries
 `KANA.KEYMAP`. `IS.TITLE` is another probe-by-filename flag, and it is absent:
 the Apple version has no title picture to show.
 
+From outside these bytes, for scale: Japan was not a side market for
+*Wizardry*. The series was published there on the NEC PC-9801 and other
+Japanese machines, was a major success, and is commonly cited among the
+models for the Japanese console RPG. That is general context, not measured
+here; what the bytes show is that this engine was built for two markets at
+once and that the American build still carries the second one's machinery.
+`KANJIREA` is 28 of 592 procedures; with `DOCACHE`'s `KANA.KRN`, `KANJI.KRN`
+and `400.MONSTERS`, the text's language menu and the NEC copyright
+([05](05-the-text.md)), Japanese support is not a leftover of one routine but
+a dimension of the whole program, switched off by which files are on the
+volume.
+
 **`DOCACHE` — the cache, and its self-test.**
 
 ```

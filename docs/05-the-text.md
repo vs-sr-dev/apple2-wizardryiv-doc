@@ -144,7 +144,29 @@ and Robert Woodhead, Inc."*, and 2,027 the credit:
 > Andrew Greenberg, Robert Woodhead & Roe R. Adams,III.
 
 The NEC message has no reason to be shown on an Apple; nothing here says
-whether it can be. It is present, numbered, and indexed.
+whether it can be. It is present, numbered, and indexed — one message file
+for two markets, of which Japan was, by the series' history rather than by
+these bytes, the larger second one
+([04](04-the-program-and-the-interpreters.md)).
+
+### Names from Tolkien, and what they are doing here
+
+The decoded text and the scenario tables carry four names that come from, or
+pass through, Tolkien (counted on the decoded lines; notes/krn-census.txt for
+the numbering):
+
+| name | where | as what |
+|---|---|---|
+| `Hobbit` | the race list (message 9,997) and `SCENARIO.DATA`'s race table | one of six races, inherited unchanged from the 1981 scenario |
+| `Mordor` | `MORDORCHARGE` (item 14,128), *"Mordorcharge Card"* (543), *"Visa, Mordor Charge accepted"* (21,200) | the copy protection's credit card — a pun on **Master Charge**, MasterCard's name until 1979 |
+| `Thorin` | *"Why, it's Captain Thorin's Card!"* (12,242) | a name on the card hotlist; Tolkien took it from the Old Norse *Dvergatal*, as he did Gandalf |
+| `Mythril` | `MYTHRIL GLOVE`, `$MYTHRIL GAUNTLET`, *"even if you paid in Mythril!"* | spelt with a *y*, not Tolkien's *mithril* |
+
+From outside these bytes: Tolkien Enterprises, which from 1976 held the film
+and merchandising rights, is the party that had TSR remove hobbits, ents and
+balrogs from *Dungeons & Dragons* around 1977. No dispute over *Wizardry*'s
+uses is known to this repository; on these disks they amount to one race name
+in a table and a joke about a credit card.
 
 ### The copy protection, and the player's own copies
 

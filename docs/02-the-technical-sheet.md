@@ -32,6 +32,7 @@ python tools/a2codefile.py _work/blah-code.bin --strings              > notes/a2
 python tools/wiz4krn.py _work/virt/ASCII.HUFF _work/virt/ASCII.KRN --audit   > notes/wiz4krn-audit.txt
 python tools/wiz4maze.py _work/virt/SCENARIO.DATA                             > notes/wiz4maze-census.txt
 python tools/wiz4maze.py _work/virt/SCENARIO.DATA --ascii B --crop 9 17 3 12  > notes/wiz4maze-dink.txt  (B = 101 103 105 107)
+python tools/wiz4maze.py _work/virt/SCENARIO.DATA --sealed; --ascii 119 --crop 5 15 5 15; --ascii 105 --crop 4 12 13 20   > notes/wiz4maze-start.txt
 python tools/wiz4census.py identity|stale|coverage|census OBJ   > notes/side-identity.txt, stale-directory.txt, coverage.txt, census.txt
 python tools/wiz4census.py krn|interp|data|slack _work          > notes/krn-census.txt, interp-strings.txt, data-files.txt, slack-text.txt
 for t in a2pascal a2codefile wiz4virt wiz4krn wiz4maze: python tools/$t.py --selftest   > notes/selftests.txt
@@ -71,6 +72,7 @@ table transcribed from *Computist* no. 51 and is therefore not published.
 | Mordorcharge table | 60 pairs; 60 of 60 *Computist* codes; column 3 exact 20 of 20 | mordorcharge |
 | level records | 15 (12 consistent ≥ 0.966; 107, 111, 127 one-sided); 107 vs 127: 20 bytes differ | wiz4maze-census |
 | one-sided edges, level 107 | 233 of 760 | wiz4maze (chapter 06) |
+| sealed 2 × 2 rooms | 2: block 119 x 9–10 y 9–10 (centre, hidden door north), block 105 x 7–8 y 16–17 | wiz4maze-start |
 | character set | 512 glyphs, 146 blank (17 / 128 / 1) | data-files |
 | monster tiles | 3,840, 903 blank, 257 all-printable | data-files |
 | `MAZE.INFO` | 62 records, words 0..2,942 | data-files |
