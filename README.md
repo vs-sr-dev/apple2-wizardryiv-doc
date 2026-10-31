@@ -59,14 +59,16 @@ circulated *Proving Grounds* source for one enumeration, marked as outside.
 
 ## Its index
 
-Primary index: the **single-title** table of the
-[profile README](https://github.com/vs-sr-dev/vs-sr-dev), because one Apple II
-title is not a family. It is also cross-linked from
+Primary index: [apple2-gamelist-doc](https://github.com/vs-sr-dev/apple2-gamelist-doc),
+created when the second Apple II title,
+[apple2-theoregontrail-doc](https://github.com/vs-sr-dev/apple2-theoregontrail-doc),
+arrived. This repository's row moved there from the single-title table of the
+[profile README](https://github.com/vs-sr-dev/vs-sr-dev), where it was listed
+while it was the only Apple II title. It is also cross-linked from
 [pc-gamelist-doc](https://github.com/vs-sr-dev/pc-gamelist-doc), whose `Saga`
-column now reads *Wizardry* on the PC row, and not listed there as a PC title:
-the prefix names the target machine. A second Apple II title would create
-`apple2-gamelist-doc`; a third or fourth *Wizardry* would make the series an
-index of its own.
+column reads *Wizardry* on the PC row, and is not listed there as a PC title:
+the prefix names the target machine. A third or fourth *Wizardry* would make
+the series an index of its own.
 
 ## Its neighbours
 
